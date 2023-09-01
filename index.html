@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <!--
-    1. h1 - h2 - ... - heading
-    2. p -paragraph
-    3. img
-    4. a - anchor
-    5. ul, li - unordered list, list item
-    6. table - thead >> <th> ; tbody >> tr >> <td>
-    7. input
-    8. button
-    9. div - a block to group content
-    10. <ul> >> <li> [dot] ; <ol> >> <li> [number]
+HTML:   1. h1 - h2 - ... - heading
+        2. p -paragraph
+        3. img
+        4. a - anchor
+        5. ul, li - unordered list, list item
+        6. table - thead >> <th> ; tbody >> tr >> <td>
+        7. input
+        8. button
+        9. div - a block to group content
+        10. <ul> >> <li> [dot] ; <ol> >> <li> [number]
 -->
 
 <!--
 CSS:    1. Internal: inside tags <head>/<body>...
-        2. External: 
-        3. Inline: 
-
+        2. External: <link rel="stylesheet" href="namefile.css"> >> [Check Inspect] >> Debugger >> Sources has file namefile.css?
+        3. Inline: attribute style in tags [Ex: <h1 style="color: yellow; font-size: 30px">Inline CSS</h1>]
+        4. ID & Class: + ID[#idname]: different (cant similar) >> only one ID
+                       + Class[.classname]: can be similar >> many Class
+        5.
 -->
 
 <html>
@@ -26,7 +28,7 @@ CSS:    1. Internal: inside tags <head>/<body>...
     <title> ImThienz </title>
     <meta charset="utf-8"> <!--ho tro hien thi tieng Viet tren website-->
 
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="main.css"> <!--External-->
     <!--
     <style>
         h1{
@@ -45,7 +47,13 @@ CSS:    1. Internal: inside tags <head>/<body>...
         hello guys!
         <!--Chill w me-->
         <h1 title="This is title">Attribute</h1> <!--Add 1 attribute [title/style/onclick...] in h1-->
-        <h2>Tieu de</h2>
+        <h2 style="color: purple; font-size: 50px;">Tieu de</h2>
+
+        <h3></h3>
+        <h3></h3>
+        <h3></h3>
+        <h3></h3>
+
 
         <input type="text"> <!--text: dien van ban-->
         <input type="checkbox"> <!--checkbox: dau tick-->
@@ -58,8 +66,9 @@ CSS:    1. Internal: inside tags <head>/<body>...
 
         <p>Noi dung</p>
 
-        <img tittle="Hutao" src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/genshin-impact/f/f5/Hu_Tao_Birthday_Banner.png?width=814"
-            alt="Hutao GI" width="100%"/>
+        <img tittle="Hutao"
+            src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/genshin-impact/f/f5/Hu_Tao_Birthday_Banner.png?width=814"
+            alt="Hutao GI" width="100%" />
         <a href="https://www.facebook.com/profile.php?id=100011968744036">Personal Page</a>
 
         <ul>
