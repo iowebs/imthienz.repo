@@ -7,3 +7,33 @@
     color: red;
     font-size: 30px;
 }
+
+.heading.title{
+    color: purple;
+    font-size: 20px;
+}
+
+.box .subtitle{ 
+    color: orange;
+    font-size: 40px;
+}
+
+*{
+    color: blue;
+    font-size: 62px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h5{
+    color: gray;
+    font-size: 30px;
+}
+
+h3.title1{
+    color:aquamarine;
+    text-decoration: underline;
+    font-size: 35px;;
+
+}
